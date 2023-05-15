@@ -51,6 +51,7 @@
             this.writeNameButton.TabIndex = 6;
             this.writeNameButton.Text = "Write Name";
             this.writeNameButton.UseVisualStyleBackColor = true;
+            this.writeNameButton.Click += new System.EventHandler(this.writeNameButton_Click);
             // 
             // nameTextBox
             // 

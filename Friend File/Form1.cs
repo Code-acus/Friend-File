@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Friend_File
 {
@@ -14,6 +15,12 @@ namespace Friend_File
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void writeNameButton_Click(object sender, EventArgs e)
+        {
+            // Create variables
+            StreamWriter outputFile
         }
     }
 }
