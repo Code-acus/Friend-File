@@ -1,0 +1,9 @@
+D:\Documents\Books\C#\5th Edition (future)\Source Code Workspace\Source Code 4th Edition\Chap05\Friend File\Friend File\bin\Debug\Friend File.exe
+D:\Documents\Books\C#\5th Edition (future)\Source Code Workspace\Source Code 4th Edition\Chap05\Friend File\Friend File\bin\Debug\Friend File.pdb
+D:\Documents\Books\C#\5th Edition (future)\Source Code Workspace\Source Code 4th Edition\Chap05\Friend File\Friend File\obj\x86\Debug\Friend File.csprojAssemblyReference.cache
+D:\Documents\Books\C#\5th Edition (future)\Source Code Workspace\Source Code 4th Edition\Chap05\Friend File\Friend File\obj\x86\Debug\Friend_File.Form1.resources
+D:\Documents\Books\C#\5th Edition (future)\Source Code Workspace\Source Code 4th Edition\Chap05\Friend File\Friend File\obj\x86\Debug\Friend_File.Properties.Resources.resources
+D:\Documents\Books\C#\5th Edition (future)\Source Code Workspace\Source Code 4th Edition\Chap05\Friend File\Friend File\obj\x86\Debug\Friend File.csproj.GenerateResource.cache
+D:\Documents\Books\C#\5th Edition (future)\Source Code Workspace\Source Code 4th Edition\Chap05\Friend File\Friend File\obj\x86\Debug\Friend File.csproj.CoreCompileInputs.cache
+D:\Documents\Books\C#\5th Edition (future)\Source Code Workspace\Source Code 4th Edition\Chap05\Friend File\Friend File\obj\x86\Debug\Friend File.exe
+D:\Documents\Books\C#\5th Edition (future)\Source Code Workspace\Source Code 4th Edition\Chap05\Friend File\Friend File\obj\x86\Debug\Friend File.pdb
