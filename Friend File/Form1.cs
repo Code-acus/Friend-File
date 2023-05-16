@@ -19,8 +19,29 @@ namespace Friend_File
 
         private void writeNameButton_Click(object sender, EventArgs e)
         {
-            // Create variables
-            StreamWriter outputFile
+            try
+            {
+                // Create variables
+                StreamWriter outputFile;
+
+                // Open the Friends.txt file for appending and geting a new StreamWriter object
+                outputFile = File.AppendText("Freinds.txt");
+
+                // Wrie the firends name to the file by getting the name entered into the text box
+                outputFile.WriteLine(nameTextBox.Text);
+
+                // Show a message indicating that the name was written
+                MessageBox.Show("The name was written.");
+
+                // Show friends.txt file with the name written
+                outputFile.Close();
+            }
+            
+            catch (Exception ex)
+            {
+                // Display an error message
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
