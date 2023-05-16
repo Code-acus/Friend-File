@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
 using System.IO;
+using System.Windows.Forms;
 
 namespace Friend_File
 {
@@ -21,26 +15,20 @@ namespace Friend_File
         {
             try
             {
-                // Create variables
-                StreamWriter outputFile;
+                // Create a StreamWriter object and open the Friends.txt file for appending
+                using (StreamWriter outputFile = File.AppendText("Friends.txt"))
+                {
+                    // Write the friend's name to the file by getting the name entered into the text box
+                    outputFile.WriteLine(nameTextBox.Text);
 
-                // Open the Friends.txt file for appending and geting a new StreamWriter object
-                outputFile = File.AppendText("Freinds.txt");
-
-                // Wrie the firends name to the file by getting the name entered into the text box
-                outputFile.WriteLine(nameTextBox.Text);
-
-                // Show a message indicating that the name was written
-                MessageBox.Show("The name was written.");
-
-                // Show friends.txt file with the name written
-                outputFile.Close();
+                    // Show a message indicating that the name was written
+                    MessageBox.Show("The name was written.");
+                }
             }
-            
             catch (Exception ex)
             {
-                // Display an error message
-                MessageBox.Show(ex.Message);
+                // Display a general error message
+                MessageBox.Show("An error occurred: " + ex.Message);
             }
         }
 
